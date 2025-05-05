@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venezuela web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f56f6708a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- Navbar menu -->    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#places"><i class="fa-solid fa-location-dot"></i></a></li>
+            <li><a href="#messages"><i class="fa-solid fa-message"></i></a></li>
+        </ul>
+      </nav>
+    <!-- Navbar menu -->
+
+    <article>
+
+        <!-- Home -->
+        <section id="home">
+            <h2>Venezuela</h2>
+            <h3>El país mas hermoso el mundo.</h3>
+        </section>
+        <!-- Home -->
+
+        <!-- about Vzla -->
+         <section id="about">
+            <h2>Venezuela: Un Mundo en Cada Rincón.</h2>
+            <h3>Descubre la asombrosa diversidad de Venezuela, un país donde imponentes cumbres andinas se encuentran con playas caribeñas de ensueño, extensas sabanas vibrantes albergan una fauna única y ciudades coloniales narran historias fascinantes. Sumérgete en una cultura rica y apasionante, donde la calidez de su gente te invita a explorar cada uno de sus inolvidables rincones. ¡Tu aventura venezolana comienza aquí!</h3>
+         </section>
+        <!-- about Vzla -->
+
+        <!-- Places  -->
+        <section id="places">
+
+            <h2>Lugares turísticos</h2>
+            <h3>un 10% de lo que puedes encontrar en venezuela...</h3>
+
+            <div class="places-row">
+                
+                <div class="card">
+                    <img src="./img/caracas_avila_bona_lee.jpg" alt="Avila - Caracas by Bona Lee" width="250px">
+                    <h3>El Avila - Caracas</h3>
+                    <h4>Parque Nacional Waraira Repano</h4>
+                    <div class="line"></div>
+                    <p>Imponente cadena montañosa que se alza majestuosamente al norte de Caracas, sirviendo como pulmón vegetal, barrera natural y telón de fondo escénico de la ciudad.</p>
+                    <div class="moreinfo">
+                        <button type="button">MAS INFO</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img/losroques.jpg" alt="Archipielago Los Roques" width="250px">
+                    <h3>Los Roques</h3>
+                    <h4>Parque Nacional</h4>
+                    <div class="line"></div>
+                    <p>Destino caribeño de ensueño, famoso por su belleza natural virgen, sus playas paradisíacas y su excepcional biodiversidad marina, convirtiéndolo en un verdadero tesoro de Venezuela.</p>
+                    <div class="moreinfo">
+                        <button type="button">MAS INFO</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img/morrocoy_eduardo_juhyun_kim.jpg" alt="Avila - Caracas by Bona Lee" width="250px">
+                    <h3>Morrocoy</h3>
+                    <h4>Parque Nacional</h4>
+                    <div class="line"></div>
+                    <p>Destino venezolano imperdible, conocido por la belleza de sus cayos, la serenidad de sus aguas y la riqueza de su biodiversidad, convirtiéndolo en un lugar perfecto para el descanso y la conexión con la naturaleza caribeña.                    </p>
+                    <div class="moreinfo">
+                        <button type="button">MAS INFO</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Places  -->
+
+        <!-- Video -->
+        <section id="videoblog">
+            <h2>Venezuela en 4K full HD 60FPS</h2>
+            <h3>Un video para que te sientes en el sillón y te deleites con los paisajes.</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/G8mScTOMzeM?si=s9FS1sFI5W2B5YKe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- Video -->
+
+        <!-- Messages -->
+        <section id="messages">
+            <h2>Deja tu mensaje!</h2>
+            <h3>Aprovecha de dejarnos tu opinion.</h3>
+            
+            <form action="#">
+                <div class="item-form">
+                  <label for="nombre">Nombre</label>
+                  <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="32" required>
+                </div>
+      
+                <div class="item-form">
+                  <label for="empresa">Empresa</label>
+                  <input type="text" id="empresa" name="empresa" minlength="2" maxlength="64" size="32" required>
+                </div>
+      
+                <div class="item-form">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" minlength="10" maxlength="128" size="32" required>
+                </div>
+      
+                <div class="item-form">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea name="mensaje" id="mensaje" cols="33" rows="5"></textarea>
+                </div>
+      
+                <div class="item-form">
+                  <input type="submit" name="enviar" value="CONTACTAR">
+                </div>
+      
+              </form>
+
+        </section>
+
+        <!-- Messages -->      
+
+    </article>
+
+
+</body>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div>
+        <ul>
+            <li>Victor Salas, all rights reserved.</li>
+        </ul>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+</html>

@@ -1,0 +1,284 @@
+/* CSS for general elements */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #3F0D12;
+    border-bottom: 1px solid #F1F0CC;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+}
+
+nav ul{
+    display: inline-block;
+}
+
+nav ul li{
+    padding-top: 10px;
+}
+
+body{
+    background-color: #F1F0CC;
+    color: #8D775F;
+    font: 200 14px "Nunito", sans-serif;
+}
+
+h2{
+    font-size: 36px;
+    line-height: 36px;
+}
+
+h3{
+    color: #999999;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p{
+    text-align: justify;
+}
+
+section{
+    padding: 10px 100px 0px 100px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:any-link{
+    color: #F1F0CC;
+}
+
+a:-webkit-any-link{
+    color: #F1F0CC;
+}
+
+a:-moz-any-link{
+    color: #F1F0CC;
+}
+
+a:hover{
+    color: #8D775F;
+}
+
+/* for classes and IDs*/
+.moreinfo button{
+    background-color: #F1F0CC;
+    font-weight: 600;
+    padding: 5px 15px;
+    float: right;
+    border: none;
+    color: #A71D31;
+    border-radius: 20px;
+}
+
+.moreinfo button:hover{
+    background-color: #A71D31;
+    color: #F1F0CC;
+    cursor: pointer;
+}
+
+.card .line{
+    margin: 0px 5px 5px 0;
+    border: 1px solid #F1F0CC;
+}
+
+.card .moreinfo button{
+    float: right;
+}
+
+.navbar i{
+    color: #D5BF86;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.navbar i:hover{
+    color: #8D775F;
+    cursor: pointer;
+}
+
+/* home */
+#home{
+    padding-top: 90px;
+    background-image: url(/img/caracas_avila_bona_lee.jpg);
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #F1F0CC;
+}
+
+#home h2{
+    color: #F1F0CC;
+    font-size: 50px;
+}
+
+#home h3{
+    font-weight: 400;
+}
+
+/* About */
+#about{
+    background-color: #8D775F;
+    min-height: 200px;
+    text-align: center;
+    align-content: center;
+}
+
+#about h2{
+    color: #F1F0CC;
+    padding-bottom: 10px;
+}
+
+#about h3{
+    color: #D5BF86;
+}
+
+/* Card - Places*/
+.places-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    margin: 15px 0px;
+}
+
+.card{
+    width: 250px;
+    background-color: #8D775F;
+    border-radius: 20px;
+    color: #D5BF86;
+    margin-top: 5px;
+}
+
+.card img{
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card h3{
+    color: #F1F0CC;
+    font-weight: 700;
+}
+
+.card h4{
+    margin: 0px 5px 5px 0px;
+    font-weight: 500;
+    color: #F1F0CC;
+}
+
+.card .moreinfo{
+    margin: 15px 0px 15px 0px;
+    height: 26px;
+}
+
+.card h3, .card h4, .card p, .card .moreinfo{
+    padding: 0px 15px;
+}
+
+.card p{
+    font-weight: 400;
+}
+
+/* videoblog */
+#videoblog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid #8D775F;
+}
+
+#videoblog h2{
+    margin-top: 10px;
+}
+
+#videoblog iframe{
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* Messages */
+#messages{
+    background-color: #8D775F;
+    width: 100%;
+    color: #F1F0CC;
+}
+
+#messages h3{
+    font-weight: 400;
+    color: #D5BF86;
+}
+
+.item-form{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.item-form label{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.item-form input, .item-form textarea{
+    border-radius: 10px;
+    border: 1px solid #3F0D12;
+}
+
+input[type="submit"]{
+    background-color: #3F0D12;
+    padding: 10px;
+    color: #D5BF86;
+    font-weight: 600;
+    border: none;
+    grid-column: 2/3;
+    justify-self: end;
+}
+
+input[type="submit"]:hover{
+    background-color: #8D775F;
+    cursor: pointer;
+}
+
+/* Footer */
+#footer{
+    background-color: #3F0D12;
+    text-align: center;
+}
+
+#footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer ul{
+    height: 30px;
+    display: flex; 
+    align-items: center; 
+    padding: 10px 0px; 
+    margin: 0 auto;
+    font-weight: 700;
+}
